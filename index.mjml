@@ -1,6 +1,18 @@
 <mjml>
   <mj-head>
-    <mj-style> *{box-sizing: border-box;} </mj-style>
+    <mj-style>
+      *{box-sizing: border-box;} @media only screen and (max-width: 500px){
+      .icons { width:40px !important; height:40px !important;} } @media only
+      screen and (max-width: 400px){ .icons { width:35px !important; height:35px
+      !important;} } @media only screen and (max-width: 300px){ .icons {
+      width:32px !important; height:32px !important;} } @media only screen and
+      (max-width: 280px){ .icons { width:30px !important; height:30px
+      !important;} } @media only screen and (max-width: 250px){ .icons {
+      width:28px !important; height:28px !important;} } @media only screen and
+      (max-width: 230px){ .icons { width:25px !important; height:25px
+      !important;} }
+    </mj-style>
+
     <mj-style inline="inline"> </mj-style>
   </mj-head>
 
@@ -42,7 +54,7 @@
           font-size="18px"
           align="center"
           padding="0 28px 40px"
-          line-height="1.6"
+          line-height="24px"
           >Your Riot ID is used by players to find you through the social panel
           in our games.
         </mj-text>
@@ -51,7 +63,7 @@
 
     <mj-section background-color="#f0f0f0" padding="20px 60px 0">
       <mj-column>
-        <mj-text font-size="16px" align="center" line-height="1.8">
+        <mj-text font-size="16px" align="center" line-height="22px">
           If you wish to update your Riot ID you can do so in
           <a
             style="color: #cc6062"
@@ -64,7 +76,7 @@
           font-size="16px"
           align="center"
           padding-bottom="40px"
-          line-height="1.8"
+          line-height="22px"
           >If this wasn't you
           <a
             style="color: #cc6062"
@@ -90,55 +102,55 @@
     <mj-section background-color="#f0f0f0" padding="20px 60px 30px">
       <mj-group>
         <mj-column>
-          <mj-image
-            src="img/facebook-icon.png"
-            alt="Facebook logo"
-            width="50px"
-            height="50px"
-            margin="0"
-            padding="0"
-            padding="0 70px"
-            href="https://www.facebook.com/RiotGames/"
-          />
+          <mj-text>
+            <a href="https://www.facebook.com/RiotGames/">
+              <img
+                class="icons"
+                src="img/facebook-icon.png"
+                alt="Facebook logo"
+                style="width: 50px; height: 50px; padding: 0"
+              />
+            </a>
+          </mj-text>
         </mj-column>
 
         <mj-column>
-          <mj-image
-            src="img/instagram-icon.png"
-            alt="instagram logo"
-            width="50px"
-            height="50px"
-            margin="0"
-            padding="0"
-            padding="0 70px"
-            href="https://www.instagram.com/riotgames/"
-          />
+          <mj-text>
+            <a href="https://www.instagram.com/riotgames/">
+              <img
+                class="icons"
+                src="img/instagram-icon.png"
+                alt="instagram logo"
+                style="width: 50px; height: 50px; padding: 0"
+              />
+            </a>
+          </mj-text>
         </mj-column>
 
         <mj-column>
-          <mj-image
-            src="img/youtube-icon.png"
-            alt="youtube logo"
-            width="50px"
-            height="50px"
-            margin="0"
-            padding="0"
-            padding="0 70px"
-            href="https://www.youtube.com/channel/UCJEGvSZnQ1pkVfHO8s5G8hA"
-          />
+          <mj-text>
+            <a href="https://www.youtube.com/channel/UCJEGvSZnQ1pkVfHO8s5G8hA">
+              <img
+                class="icons"
+                src="img/youtube-icon.png"
+                alt="youtube logo"
+                style="width: 50px; height: 50px; padding: 0"
+              />
+            </a>
+          </mj-text>
         </mj-column>
 
         <mj-column>
-          <mj-image
-            src="img/twitter-icon.png"
-            alt="twitter logo"
-            width="50px"
-            height="50px"
-            margin="0"
-            padding="0"
-            padding="0 70px"
-            href="https://twitter.com/RiotGames/"
-          />
+          <mj-text>
+            <a href="https://twitter.com/RiotGames/">
+              <img
+                class="icons"
+                src="img/twitter-icon.png"
+                alt="twitter logo"
+                style="width: 50px; height: 50px; padding: 0"
+              />
+            </a>
+          </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
